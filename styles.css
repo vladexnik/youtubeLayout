@@ -449,7 +449,6 @@ body{
     .container{
         display: block;
         margin: 0;
-        max-height: 1012px;
     }
 
     .subscriptions, .settings, .aside-subs-channels{
@@ -467,10 +466,12 @@ body{
     .library{
         margin-bottom: 0;
     }
+
     .library a{
         display: flex;
         flex-direction: column;
     }
+
     .input-search-bar{
         display: none;
     }
@@ -484,12 +485,14 @@ body{
         padding: 0;
         width: 19px;
     }
+
     .center-side{
         width: fit-content;
         margin-right: 0;
         gap:24px;
         justify-content: flex-start;
     }
+
     aside{
         height: 61px;
         display: flex;
@@ -503,6 +506,7 @@ body{
         justify-content: center;
         align-items: baseline;
     }
+
     .aside-btns{
         transform: translateY(0);
         font-size: 10px;
@@ -521,7 +525,6 @@ body{
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .aside-btns.secondary{
         height: 35px;
         width: 33px;
@@ -536,6 +539,7 @@ body{
         justify-content: space-between;
         margin-bottom: 21px;
     }
+
     .video-name{
         margin-top: 10px;
         margin-bottom: 4px;
@@ -545,6 +549,7 @@ body{
         width: 288px;
         height: 150px;
     }
+    
     .video-row-card{
         margin: 0 auto;
         
